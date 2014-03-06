@@ -18,7 +18,7 @@ app.use(Router(app));
 
 app.get('/', function *(){
   console.log('Express-style example');
-  this.body = "This is root page ('//')";
+  this.body = "This is root page ('/')";
 });
 
 const publicRouter = new Router();
